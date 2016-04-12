@@ -1,0 +1,50 @@
+Java - Maven i classes del model bàsiques
+#########################################
+
+07/04/2016
+----------
+
+Ejercicios
+
+1. Vamos a crear un mètodo en la clase App que acepte el siguiente parámetro:
+	- Integer [][] empleadosClientesProductos
+		Este parámetro es un array de arrays. 
+		Para cada empleado, este parámetro contiene un array que guarda el número de productos que tiene asociado cada cliente
+		Por lo tanto:
+			- La longitud del array principal nos indica el Número de empleados
+			- La longitud del array de la posición [i] nos indica el número de clientes del empleado I
+			- El valor de la posición [x] correspondiente al array de clientes [i], nos indica el número de productos que tiene asociados el cliente X del empleado I
+		
+	Este método nos va a permitir inicializar un conjunto de datos, concretamente 4 arrays:
+		- Empleados
+		- Clientes
+		- Productos
+		- Ventas
+		
+2. Cread un método en la clase App que una vez inicializados los datos de la "Empresa", os permita calcular los porcentajes de los Empleados y los Clientes, y inicializarlos.
+
+3. Implementad el código necesario para mostrar los datos por pantalla de la siguiente forma:
+
+	- <nombreEmpleado1>
+	- Porcentaje de clientes: <porcentajeClientes>%
+	- Clientes:
+		- <nombreCliente1>, Porcentaje de productos: <porcentajeProductos>%
+			- <nombreProducto1>
+			- <nombreProducto2>
+			...
+		- <nombreCliente1>, Porcentaje de productos: <porcentajeProductos>%
+			- <nombreProducto1>
+			- <nombreProducto2>
+			...
+
+	- <nombreEmpleado2>
+	- Porcentaje de clientes: <porcentajeClientes>%
+	- Clientes:
+		- <nombreCliente1>, Porcentaje de productos: <porcentajeProductos>%
+			- <nombreProducto1>
+			- <nombreProducto2>
+			...
+		- <nombreCliente1>, Porcentaje de productos: <porcentajeProductos>%
+			- <nombreProducto1>
+			- <nombreProducto2>
+			...

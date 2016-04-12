@@ -1,0 +1,11 @@
+Java - JPA
+#########################################
+
+11/04/2016
+----------
+
+Ejercicios
+
+1. Cread la clase Sale, mapeada con JPA
+
+2. Cread el test: SaleTest

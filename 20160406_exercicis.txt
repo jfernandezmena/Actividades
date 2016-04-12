@@ -1,0 +1,23 @@
+Java - Maven i classes del model bàsiques
+#########################################
+
+06/04/2016
+----------
+
+Ejercicios
+
+1. Cread los test para las clases:
+	Employee
+		- Esta clase de test debe setear el nombre, los apellidos, la fecha de nacimiento y comprobar que los gets reciben el mismo valor que el que se ha seteado (o sea, prácticamente lo mismo que en Customer)
+	Product
+		- Esta clase de test debe setear el nombre y la descripción y comprobar que los gets reciben el mismo valor que el que se ha seteado
+	Sale
+		- Esta clase de test debe crear un nuevo objecto Sale y después recuperar y comprobar que los nombres del producto y el cliente son los mismos que se han seteado
+
+2. Cread nuevos constructores para (dejando la posibilidad que exista el constructor por defecto)
+	- Customer (id, name, surname, Employee)
+	- Product (id, name)
+
+3. Modificad App para que funcione con los nuevos constructores
+
+4. Añadid métodos Test para probar los nuevos constructores

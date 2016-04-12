@@ -1,0 +1,20 @@
+Java - Maven i classes del model bàsiques
+#########################################
+
+08/04/2016
+----------
+
+Ejercicios
+
+1. Refactorizad vuestro código:
+	- Cread la clase Enterprise
+	- Moved el método initialize y el método para calcular los porcentajes a la clase Enterprise
+	- Cread una clase de test de Enterprise, que a parte de los getters y setters valide que se calculan correctamente los porcentajes
+	- Modificad la clase App para que se pueda ejecutar el siguiente código con el mismo resultado que antes de la refactorización:
+		Enterprise ent = new Enterprise();
+		ent.initialize(...); //Poned los valores que prefiráis
+		ent.actualizaPorcentajes();
+		ent.muestraDatosEmpresa();
+		
+2. En el proyecto 3-EstructuraMavenModelClassesDB:
+	- Cread las clases EmployeeTest y ProductTest, con sus métodos para probar los inserts de los objectos respectivos
