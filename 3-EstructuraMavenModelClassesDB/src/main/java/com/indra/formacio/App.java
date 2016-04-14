@@ -56,7 +56,6 @@ public class App
 			System.out.println(customer.toString());
 		}
     	
-		
 		//Secció de vendes
 
 		Product p;
